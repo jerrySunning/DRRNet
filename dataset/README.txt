@@ -1,0 +1,2 @@
+The training set is composed of 1,000 images from the open-source CAMO-Train and 3,040 images from COD10K-Train.
+The validation set consists of 250 images from the CAMO test set (with a total of 250 images), the first 1,080 images from the COD10K test set (with a total of 2,026 images), and the first 2,000 images from NC4K (with a total of 4,121 images). (Using the full 2,026 images from COD10K directly yields a similar effect.)
