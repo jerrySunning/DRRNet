@@ -8,6 +8,7 @@ import timm
 import os
 class Network(nn.Module):
     def __init__(self, channels=64):
+        # ResNet based encoder
         super(Network, self).__init__()
 
         self.encoder = timm.create_model(model_name="resnet50", pretrained=True, in_chans=3, features_only=True)
