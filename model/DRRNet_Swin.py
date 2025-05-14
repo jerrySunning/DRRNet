@@ -7,7 +7,7 @@ from model.DRRNet_modules import BasicConv2d, OCM, MDM, DRRM1, DRRM2, MMF, GRD
 
 import os
 class Network(nn.Module):
-    # Swin Transformer based encoder decoder
+    # Swin Transformer based encoder
     def __init__(self, channels=128):
         super(Network, self).__init__()
         self.encoder = SwinTransformer(img_size=384,
